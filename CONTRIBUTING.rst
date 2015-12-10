@@ -13,7 +13,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/simodalla/open-helpdesk/issues.
+Report bugs at 21304298@student.uwl.ac.uk
 
 If you are reporting a bug, please include:
 
@@ -104,14 +104,5 @@ Before you submit a pull request, check that it meets these guidelines:
    https://travis-ci.org/simodalla/open-helpdesk/pull_requests
    and make sure that the tests pass for all supported Python versions.
 
-Tips
-----
 
-To run a subset of tests::
-
-    $ py.test tests/test_models.py
-
-or::
-
-    $ py.test -k TestTicketAdmin
 
