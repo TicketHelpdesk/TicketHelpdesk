@@ -1,0 +1,36 @@
+# Config file for automatic testing at travis-ci.org
+
+language: python
+
+python: "3.4"
+
+services:
+  - rabbitmq
+
+addons:
+  postgresql: "9.4"
+
+cache:
+  directories:
+    - $HOME/.pip-cache/
+
+env:
+  - TESTENV=py33-django17-mezzanine4
+  - TESTENV=py33-django18-mezzanine4
+  - TESTENV=py34-django17-mezzanine4
+  - TESTENV=py34-django18-mezzanine4
+
+
+before_install:
+  - "export DISPLAY=:99.0"
+  - "sh -e /etc/init.d/xvfb start"
+
+install:
+  - pip install tox coveralls
+
+script: tox -e $TESTENV
+
+after_success:
+  - coveralls
+
+sudo: false

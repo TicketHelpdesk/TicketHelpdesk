@@ -1,0 +1,16 @@
+.table_ticket_data { width: 100%; }
+.table_ticket_data th { width: 20%; text-align: right; }
+.table_ticket_data td { width: 79%; }
+.table_ticket_data>tbody>tr:first-of-type>th, .table_ticket_data>tbody>tr:first-of-type>td{ border-top: none; }
+
+div#ticket_content ul, ol { padding-left: 2em;}
+div#ticket_content ul li { list-style-type: inherit; }
+div#ticket_content a:link, a:visited { color: #309bbf; }
+div#ticket_content a:hover, a:active { color: #444; }
+
+div#tab_changestatuslog span.before, span.arrow, span.after  {
+    display: block; float: left; width: 90px;}
+div#tab_changestatuslog span.arrow{ width: 30px; }
+
+div.result-list th.column-ld_emails { min-width:250px;  max-width:300px; }
+div.result-list table td hr { background-color: #A7A8AA; margin: 2px 0;}

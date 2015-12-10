@@ -1,2 +1,0 @@
-# TicketHelpdesk
-A Ticket Helpdesk

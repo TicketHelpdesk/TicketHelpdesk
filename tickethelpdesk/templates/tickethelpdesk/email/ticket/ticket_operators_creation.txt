@@ -1,0 +1,18 @@
+{% load i18n %}
+{# Translators: Header of email sends on creation of ticket to operators  #}
+{% blocktrans with ticket_name=ticket_name|lower%}A new {{ ticket_name }} has been created{% endblocktrans %}
+
+{% block body %}
+{% trans "Id" %}: {{ ticket.pk }}
+{% trans "Tipologies" %}: {{ ticket.tipologies.all|join:", " }}
+{% trans "Priority" %}: {{ ticket.get_priority_display }}
+{% trans "Source" %}: {{ ticket.source.title }}
+{% trans "Created at" %}: {{ ticket.created|date:"DATETIME_FORMAT" }}
+{% trans "Created by" %}: {{ ticket.requester }}
+{% trans "Content" %}: {{ ticket.content|striptags }}
+
+{% trans "Use the link below to view the ticket" %}:
+http://{{ request.get_host }}{{ change_url }}"
+
+{% trans "Questa email è generata automaticamente, si prega di non rispondere. Per qualunque informazione contattare l'ufficio Servizi Informatici all'indirizzo ced@comune.zolapredosa.bo.it" %}
+{% endblock %}
