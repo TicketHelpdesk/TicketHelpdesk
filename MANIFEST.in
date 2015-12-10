@@ -1,5 +1,6 @@
 include AUTHORS.rst
 include README.rst
+include CONTRIBUTING.rst
 recursive-include requirements *.txt
 recursive-include TicketHelpdesk *.html *.png *.gif *js *.css *jpg *jpeg *svg *py *.mo *.po
 recursive-include TicketHelpdesk/static *
