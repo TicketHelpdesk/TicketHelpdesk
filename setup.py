@@ -1,35 +1,35 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import openhelpdesk
+import TicketHelpdesk
 
 try:
     from setuptools import setup
 except ImportError:
     from distutils.core import setup
 
-version = openhelpdesk.__version__
+version = TicketHelpdesk.__version__
 readme = open('README.rst').read()
 history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 install_requirements = open(
     'requirements/requirements_production.txt').read().splitlines()
 
 setup(
-    name='open-helpdesk',
+    name='TicketHelpdesk',
     version=version,
     description="""Helpdesk app for Django/Mezzanine project""",
     long_description=readme + '\n\n' + history,
-    author='Simone Dalla',
-    author_email='simodalla@gmail.com',
-    url='https://github.com/simodalla/open-helpdesk',
+    author='Abdikarim Hassan',
+    author_email='21304298@student.uwl.ac.uk',
+    url='https://github.com/TicketHelpdesk/TicketHelpdesk',
     packages=[
-        'openhelpdesk',
+        'TicketHelpdesk',
     ],
     include_package_data=True,
     install_requires=install_requirements,
     license="BSD",
     zip_safe=False,
-    keywords='open helpdesk',
+    keywords='TicketHelpdesk',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
