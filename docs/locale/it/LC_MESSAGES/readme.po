@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mezzanine-helpdesk 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-26 10:44+0200\n"
+"POT-Creation-Date: 2015-12-10 20:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../../README.rst:10
-msgid "Created by `Simone Dalla <http://twitter.com/simodalla>`_"
+msgid "Created by `Abdikarim Hassan <http://twitter.com/bigkarim>`_"
 msgstr ""
 
 #: ../../../README.rst:14
@@ -47,17 +47,4 @@ msgstr ""
 msgid "Documentation"
 msgstr ""
 
-#: ../../../README.rst:32
-msgid ""
-"Please head over to `documentation "
-"<https://readthedocs.org/projects/openhelpdesk/>`_ for all the details on "
-"how to install, configurate and use the OpenHelpdesk."
-msgstr ""
 
-#: ../../../README.rst:37
-msgid "License"
-msgstr ""
-
-#: ../../../README.rst:38
-msgid "OpenHelpdesk is `BSD licensed`_."
-msgstr ""
