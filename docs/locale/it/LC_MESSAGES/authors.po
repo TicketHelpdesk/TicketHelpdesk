@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mezzanine-helpdesk 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-26 10:44+0200\n"
+"POT-Creation-Date: 2015-12-10 20:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,7 +20,7 @@ msgid "Development Lead"
 msgstr ""
 
 #: ../../../AUTHORS.rst:8
-msgid "Simone Dalla <simodalla@gmail.com>"
+msgid "Abdikarim Hassan <21304298@student.uwl.ac.uk>"
 msgstr ""
 
 #: ../../../AUTHORS.rst:11
