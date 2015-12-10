@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mezzanine-helpdesk 0.4.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-08-26 10:44+0200\n"
+"POT-Creation-Date: 2015-12-10 20:05+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,7 +34,7 @@ msgid "Report Bugs"
 msgstr ""
 
 #: ../../../CONTRIBUTING.rst:16
-msgid "Report bugs at https://github.com/simodalla/open-helpdesk/issues."
+msgid "Report bugs at https://github.com/TicketHelpdesk/TicketHelpdesk/issues."
 msgstr ""
 
 #: ../../../CONTRIBUTING.rst:18
@@ -80,8 +80,8 @@ msgstr ""
 
 #: ../../../CONTRIBUTING.rst:39
 msgid ""
-"open-helpdesk could always use more documentation, whether as part of the "
-"official open-helpdesk docs, in docstrings, or even on the web in blog "
+"TicketHelpdesk could always use more documentation, whether as part of the "
+"official TicketHelpdesk docs, in docstrings, or even on the web in blog "
 "posts, articles, and such."
 msgstr ""
 
@@ -92,7 +92,7 @@ msgstr ""
 #: ../../../CONTRIBUTING.rst:46
 msgid ""
 "The best way to send feedback is to file an issue at "
-"https://github.com/simodalla/open-helpdesk/issues."
+"https://github.com/TicketHelpdesk/TicketHelpdesk/issues."
 msgstr ""
 
 #: ../../../CONTRIBUTING.rst:48
@@ -119,12 +119,12 @@ msgstr ""
 
 #: ../../../CONTRIBUTING.rst:58
 msgid ""
-"Ready to contribute? Here's how to set up `open-helpdesk` for local "
+"Ready to contribute? Here's how to set up `TicketHelpdesk` for local "
 "development."
 msgstr ""
 
 #: ../../../CONTRIBUTING.rst:60
-msgid "Fork the `open-helpdesk` repo on GitHub."
+msgid "Fork the `TicketHelpdesk` repo on GitHub."
 msgstr ""
 
 #: ../../../CONTRIBUTING.rst:61
@@ -187,7 +187,7 @@ msgstr ""
 #: ../../../CONTRIBUTING.rst:103
 msgid ""
 "The pull request should work for Python 2.6, 3.3, and 3.4. Check https"
-"://travis-ci.org/simodalla/open-helpdesk/pull_requests and make sure that "
+"://travis-ci.org/TicketHelpdesk/TicketHelpdesk/pull_requests and make sure that "
 "the tests pass for all supported Python versions."
 msgstr ""
 
