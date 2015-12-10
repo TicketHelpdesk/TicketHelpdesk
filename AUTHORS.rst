@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* Simone Dalla <simodalla@gmail.com>
+* Abdikarim Hassan <21304298@student.uwl.ac.uk>
 
 Contributors
 ------------
