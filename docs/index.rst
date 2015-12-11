@@ -11,7 +11,6 @@ Contents:
    :maxdepth: 2
 
    readme
-   ubuntu1404
    getting-started
    usage
    contributing
