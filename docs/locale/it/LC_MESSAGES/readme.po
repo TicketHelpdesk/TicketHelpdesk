@@ -32,7 +32,7 @@ msgid "Dependencies"
 msgstr ""
 
 #: ../../../README.rst:24
-msgid "OpenHelpdesk required:"
+msgid "TicketHelpdesk required:"
 msgstr ""
 
 #: ../../../README.rst:26
