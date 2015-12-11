@@ -4,7 +4,7 @@ Created by `Abdikarim Hassan <http://twitter.com/big_karim>`_
 Overview
 ========
 
-OpenHelpdesk is an helpdesk ticket management system for Django/Mezzanine project.
+TicketHelpdesk is a helpdesk ticket management system for Django/Mezzanine project.
 
 
 Dependencies
