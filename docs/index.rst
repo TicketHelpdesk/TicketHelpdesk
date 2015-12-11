@@ -12,7 +12,6 @@ Contents:
 
    readme
    ubuntu1404
-   installation
    getting-started
    usage
    contributing
