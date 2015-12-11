@@ -1,13 +1,6 @@
 Getting Started
 ===============
 
-OpenHelpdesk required an configurated ``Mezzanine`` project.
-
-.. _no_mezzanine_prj:
-
-You don't have an existing Mezzanine projects
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 The command ``mezzanine-project`` can be used to create a new `Mezzanine`_ project in similar
 fashion to ``django-admin.py``::
 
