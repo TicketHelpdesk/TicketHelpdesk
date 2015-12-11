@@ -14,12 +14,12 @@ fashion to ``django-admin.py``::
     $ mezzanine-project open-helpdesk-prj
     $ cd open-helpdesk-prj
 
-Add ``openhelpdesk`` and ``autocomplete_light`` to your ``INSTALLED_APPS``
+Add ``tickethelpdesk`` and ``autocomplete_light`` to your ``INSTALLED_APPS``
 setting into your ``settings.py`` before all mezzanine apps::
 
     INSTALLED_APPS = (
         # ...
-        "openhelpdesk",
+        "tickethelpdesk",
         "autocomplete_light",
         "mezzanine.boot",
         "mezzanine.conf",
@@ -47,12 +47,12 @@ You have already an existing Mezzanine projects
 
     $ cd existing_project_name
 
-Add ``openhelpdesk`` and ``autocomplete_light`` to your ``INSTALLED_APPS``
+Add ``tickethelpdesk`` and ``autocomplete_light`` to your ``INSTALLED_APPS``
 setting into your ``settings.py`` before all mezzanine apps::
 
     INSTALLED_APPS = (
         # ...
-        "openhelpdesk",
+        "tickethelpdesk",
         "autocomplete_light",
         "mezzanine.boot",
         "mezzanine.conf",
@@ -111,7 +111,7 @@ Install the autocomplete view in ``urls.py`` using the `include function
 Initialization
 --------------
 
-Use ``inithelpdesk`` for creating required data, groups, and permission by ``OpenHelpdesk``::
+Use ``inithelpdesk`` for creating required data, groups, and permission by ``TicketHelpdesk``::
 
     $ python manage.py inithelpdesk
     $ python manage.py runserver
