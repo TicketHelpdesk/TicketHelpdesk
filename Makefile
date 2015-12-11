@@ -1,4 +1,4 @@
-version := $(shell cat openhelpdesk/__init__.py | cut -d= -f 2 | tr -d ' ' | tr -d "'")
+version := $(shell cat tickethelpdesk/__init__.py | cut -d= -f 2 | tr -d ' ' | tr -d "'")
 db_name := test_openhelpdesk_$(UID)
 .PHONY: clean-pyc clean-build docs
 
@@ -31,7 +31,7 @@ postgres-db:
 	dropdb $(db_name); createdb $(db_name)
 
 lint:
-	flake8 --exclude=migrations,urls.py openhelpdesk tests
+	flake8 --exclude=migrations,urls.py tickethelpdesk tests
 
 test:
 	py.test
@@ -59,7 +59,7 @@ coverage-live-html:
 	open htmlcov/index.html
 
 docs:
-	rm -f docs/open-helpdesk.rst
+	rm -f docs/tickethelpdesk.rst
 	rm -f docs/modules.rst
 	$(MAKE) -C docs clean
 	$(MAKE) -C docs html
