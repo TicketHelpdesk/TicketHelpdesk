@@ -10,7 +10,7 @@ TicketHelpdesk is a helpdesk ticket management system for Django/Mezzanine proje
 Dependencies
 ============
 
-OpenHelpdesk required:
+TicketHelpdesk required:
 
 * `Django`_ 1.7+, 1.8+
 * `Mezzanine`_ 4.+
