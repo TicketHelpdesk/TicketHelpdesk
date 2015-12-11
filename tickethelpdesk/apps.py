@@ -3,6 +3,6 @@
 from django.apps import AppConfig
 
 
-class OpenHelpdeskConfig(AppConfig):
-    name = 'openhelpdesk'
-    verbose_name = 'OpenHelpdesk'
+class TicketHelpdeskConfig(AppConfig):
+    name = 'tickethelpdesk'
+    verbose_name = 'TicketHelpdesk'
