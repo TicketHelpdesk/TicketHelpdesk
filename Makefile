@@ -44,18 +44,18 @@ test-all:
 
 coverage:
 	which py.test
-	py.test --cov-report term-missing --cov openhelpdesk -n 2
+	py.test --cov-report term-missing --cov tickethelpdesk -n 2
 
 coverage-live:
 	which py.test
-	py.test --livetest --cov-report term-missing --cov openhelpdesk
+	py.test --livetest --cov-report term-missing --cov tickethelpdesk
 
 coverage-html:
-	py.test --cov-report html --cov openhelpdesk
+	py.test --cov-report html --cov tickethelpdesk
 	open htmlcov/index.html
 
 coverage-live-html:
-	py.test --livetest --cov-report term-missing --cov openhelpdesk
+	py.test --livetest --cov-report term-missing --cov tickethelpdesk
 	open htmlcov/index.html
 
 docs:
